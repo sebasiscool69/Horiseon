@@ -17,6 +17,20 @@ header h1 {
     font-size: 48px;
     color: #d9dcd6;
 }
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+  }
+footer h2 {
+    font-size: 20px;
+  }
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -58,11 +72,11 @@ nav li {
     margin-bottom: 20px;
     font-size: 36px;
 }
-.text-left p {
+.content-text p {
     float: left;
     margin-right: 25px;
 }
-.text-right p {
+.content-text p {
     float: right;
     margin-left: 25px;
 }
